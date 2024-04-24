@@ -20,15 +20,15 @@
       border-radius: 10px;
       outline: none;
       border: none;
+    }
 
-      button {
-        padding: 20px;
-        border-radius: 10px;
-        background-color: #1a73e8;
-        color: white;
-        border: none;
-        cursor: pointer;
-      }
+    button {
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #1a73e8;
+      color: white;
+      border: none;
+      cursor: pointer;
     }
   }
 
