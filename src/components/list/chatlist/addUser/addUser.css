@@ -1,63 +1,73 @@
 .addUser {
   width: max-content;
   height: max-content;
-  padding: 30px;
-  background-color: rgba(17, 25, 49, 0.8);
+  padding: 40px;
+  background-color: #f0f0f0; /* Adjusted background color */
   border-radius: 10px;
   position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
 
-  form {
-    display: flex;
-    gap: 20px;
+.addUser form {
+  display: flex;
+  gap: 20px;
+}
 
-    input {
-      padding: 20px;
-      border-radius: 10px;
-      outline: none;
-      border: none;
-    }
+.addUser input {
+  padding: 15px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #ccc;
+  width: 200px; /* Adjust width as needed */
+}
 
-    button {
-      padding: 20px;
-      border-radius: 10px;
-      background-color: #1a73e8;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-  }
+.addUser button {
+  padding: 15px 30px;
+  border-radius: 8px;
+  background-color: #2c3e50; /* Adjusted button background color */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
-  .user {
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.addUser button:hover {
+  background-color: #34495e; /* Adjusted hover background color */
+}
 
-    .detail {
-      display: flex;
-      align-items: center;
-      gap: 20px;
+.addUser .user {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-      img {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        object-fit: cover;
-      }
-    }
+.addUser .user .detail {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 
-    button {
-      padding: 10px;
-      border-radius: 10px;
-      background-color: #1a73e8;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-  }
+.addUser .user .detail img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.addUser .user button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #2980b9; /* Adjusted button background color */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.addUser .user button:hover {
+  background-color: #2574a9; /* Adjusted hover background color */
 }

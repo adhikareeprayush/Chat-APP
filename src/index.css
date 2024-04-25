@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("/bg.jpg");
+  background-color: rgb(0, 110, 255);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,7 +18,7 @@ body {
 .container {
   width: 80vw;
   height: 98vh;
-  background-color: rgba(17, 25, 40, 0.75);
+  background-color: rgba(0, 0, 0, 0.75);
   border-radius: 10px;
   backdrop-filter: blur(19px) saturate(100%);
   border: 1px solid rgba(255, 255, 255, 0.121);
