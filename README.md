@@ -1,2 +1,2 @@
-# Laravel Chat App
+# Chat App using websockets
 
